@@ -43,6 +43,6 @@
 1. MLP原256個神經元增加至1000個，發現訓練的準確率比驗證還要高，此時可以增加DropOut功能，使解決Overfitting問題
 2. 辨識數字影像使用MLP、CNN、RNN、LSTM這四種模型皆能達到不錯效果
 3. 此外，RNN及LSTM可以解決時間序列、順序性的問題，例如：自然語言處理（必須考慮前後文字來判斷目前這句話的意義）
-4. 時間遞迴模型：RNN可以取得短期記憶、LSTM屬於長短期記憶模型，可以解決RNN的long-term dependencies問題
+4. 時間遞迴模型：RNN可以取得短期記憶、LSTM屬於長短期記憶模型，LSTM則可以解決RNN的long-term dependencies問題
 
 
